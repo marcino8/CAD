@@ -1,1 +1,58 @@
 /* You can add global styles to this file, and also import other style files */
+.full-height {
+  background: aliceblue;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.title-page-wrapper {
+  font-size: 120px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.cosmetics {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cosmetic {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border: black 2px solid;
+  border-radius: 25px;
+  background: white;
+  margin: 25px;
+  text-align: center;
+}
+
+.cosmetic > button {
+  margin: 20px;
+}
+
+.yt-video-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.form {
+  font-size: 120px;
+  margin-top: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form > button {
+  margin: 25px;
+}
+

@@ -7,4 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'CAD';
+  name: any;
+  surname: any;
+  email: any;
 }
